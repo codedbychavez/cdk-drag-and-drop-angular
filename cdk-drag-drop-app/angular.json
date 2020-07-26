@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "cdk-drag-drop-app"
+    }
+  },
+  "defaultProject": "cdk-drag-drop-app",
+  "cli": {
+    "analytics": false
+  }
 }

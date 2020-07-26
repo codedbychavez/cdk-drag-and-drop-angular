@@ -1,1 +1,9 @@
-<p>completed works!</p>
+<!-- completed.component.html -->
+<div class="example-container">
+	<h2>Completed Items/Tasks</h2>
+
+	<div cdkDropList [cdkDropListData]="completedItemsList" class="example-list"
+	 (cdkDropListDropped)="onDrop($event)">
+		<div class="example-box" *ngFor="let item of completedItemsList" cdkDrag>{{item}}</div>
+	</div>
+</div>
